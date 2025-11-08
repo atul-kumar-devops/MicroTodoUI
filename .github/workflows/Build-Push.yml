@@ -21,9 +21,9 @@ jobs:
       - name: Azure Login
         uses: Azure/login@v2.3.0
         with:           
-          client-id: "0aa12f58-eeb0-42e2-a057-c6ccab716994"
-          tenant-id: "98a591d8-2219-486b-b202-d02936d6bda0"
-          subscription-id: "cba3453a-ff1f-4f51-b6f6-5a1149843776"
+          client-id: "6e692c89-a9f4-4cbd-93ef-b24a5f650772"
+          tenant-id: "f6f15ce5-ae1c-4d23-8541-6e4b335529f6"
+          subscription-id: "1d3588c8-af2c-442c-bdc3-7fc3b65594b9"
 
       - name: Log in to Azure Container Regostry
         run: |
