@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: todo-ui-ingress
 spec:
-  ingressClassName: ingress-nginx-controller
+  ingressClassName: nginx
   rules:
     - host: ui.application.txt
       http:
