@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       IMAGE_NAME: todo-ui
-      IMAGE_TAG: v3
+      IMAGE_TAG: v4
       ACR_NAME: todoappacr001
       ACR_LOGIN_SERVER: todoappacr001.azurecr.io
     steps: 
