@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: todo-ui-ingress
 spec:
-  ingressClassName: nginx
+  ingressClassName: agic
   rules:
     - host: ui.applicationtesting.online
       http:
